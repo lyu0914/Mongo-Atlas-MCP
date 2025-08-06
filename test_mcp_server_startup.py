@@ -13,7 +13,7 @@ def test_mcp_server_startup():
     try:
         # 设置环境变量
         env = os.environ.copy()
-        env['MONGODB_URI'] = "mongodb+srv://liu091413:la094658@cluster0.qmiwn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+        env['MONGODB_URI'] = "mongodb+srv://username:password@cluster0.qmiwn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
         env['PYTHONPATH'] = str(Path.cwd())
         
         print("正在启动 MCP 服务器...")
@@ -68,4 +68,5 @@ def test_mcp_server_startup():
         traceback.print_exc()
 
 if __name__ == "__main__":
+
     test_mcp_server_startup() 
