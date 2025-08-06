@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mongo-atlas": {
+      "command": "python",
+      "args": [
+        "C:\\Users\\admin\\Desktop\\trae\\mcp\\run_server.py"
+      ],
+      "env": {
+        "MONGODB_URI": "mongodb+srv://liu091413:la094658@cluster0.qmiwn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "PYTHONPATH": "C:\\Users\\admin\\Desktop\\trae\\mcp"
+      }
+    }
+  }
+}
