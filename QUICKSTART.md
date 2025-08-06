@@ -13,7 +13,7 @@
 ### 1. 克隆或下载项目
 
 ```bash
-git clone https://github.com/your-username/mongo-atlas-mcp.git
+git clone https://github.com/lyu0914/Mongo-Atlas-MCP.git
 cd mongo-atlas-mcp
 ```
 
@@ -204,5 +204,6 @@ result = await client.call_tool("create_index", {
 4. 提交Issue到GitHub仓库
 
 ## 许可证
+
 
 本项目采用MIT许可证，详见LICENSE文件。 
